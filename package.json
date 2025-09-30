@@ -4,7 +4,7 @@
     "description": "Landing page do filme Retrato de Uma Jovem em Chamas",
     "main": "index.html",
     "scripts": {
-        "build": "gulp",
+        "build": "gulp build --output public",
         "dev": "gulp watch",
         "serve": "npx serve ."
     },
@@ -15,4 +15,5 @@
         "gulp-rename": "^2.0.0",
         "sass": "^1.54.5"
     }
+
     }
